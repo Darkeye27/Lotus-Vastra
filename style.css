@@ -1,0 +1,268 @@
+
+
+
+
+
+
+
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #1e1e1e;
+    padding: 0 20px;
+    border-bottom: 1px solid #333333;
+    position: relative;
+    z-index: 10;
+}
+
+.logo{
+    font-size: 24px;
+    color: #bb86fc;
+    font-weight: bold;
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.nav-items li a{
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 3s;
+}
+
+.nav-items li a:hover{
+    color: #03dac6;
+}
+
+.hamburger{
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger span{
+    width: 25px;
+    height: 3px;
+    background-color: #e0e0e0;
+    border-radius: 2px;
+    transition: transform 0.3s ease;
+
+}
+
+.carousel-item img{
+    object-fit: cover;
+    height: 730px;
+}
+
+.about-us {
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text for contrast */
+  padding: 60px 0;
+}
+
+.about-us .section-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #BB86FC; /* Accent color */
+  margin-bottom: 40px;
+}
+
+.about-us .about-text {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #e0e0e0; /* Light text color */
+}
+
+.about-us .about-text strong {
+  color: #03DAC6; /* Highlight important brand name */
+}
+
+.about-us .about-image {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+
+}
+
+.about-us .about-image:hover {
+  transform: scale(1.05);
+}
+
+.featured-products .section-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #BB86FC; /* Accent color */
+}
+
+.featured-products .card {
+  background-color: #121212; /* Dark background for the card */
+  border: 1px solid #333;
+}
+
+.featured-products .card-img-top {
+  border-radius: 10px;
+  height: 300px; /* Adjust image height */
+  object-fit: cover;
+}
+
+.featured-products .card-body {
+  padding: 20px;
+}
+
+.featured-products .card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #BB86FC; /* Accent color for product title */
+}
+
+.featured-products .card-text {
+  font-size: 14px;
+  color: #e0e0e0; /* Light text for description */
+}
+
+.featured-products .btn-success {
+  background-color: #03DAC6; /* Accent color for button */
+  border: none;
+}
+
+.featured-products .btn-success:hover {
+  background-color: #03a09c; /* Darker shade on hover */
+}
+
+.featured-products .btn-outline-light {
+  border: 2px solid #BB86FC;
+  color: #BB86FC;
+}
+
+.featured-products .btn-outline-light:hover {
+  background-color: #BB86FC;
+  color: #121212;
+}
+
+.enquire-now .section-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #BB86FC; /* Accent color */
+}
+
+.enquire-now .form-label {
+  font-weight: bold;
+}
+
+.enquire-now .form-control {
+  background-color: #1F1F1F; /* Slightly lighter than the main background */
+  color: #E0E0E0; /* Light text for inputs */
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.enquire-now .form-control:focus {
+  border-color: #BB86FC; /* Accent color for focus */
+  box-shadow: 0 0 5px #BB86FC; /* Subtle glow effect */
+}
+
+.enquire-now .btn-success {
+  background-color: #03DAC6; /* Secondary accent color */
+  border: none;
+}
+
+.enquire-now .btn-success:hover {
+  background-color: #03A09C; /* Slightly darker hover effect */
+}
+
+.enquire-now p {
+  font-size: 16px;
+  color: #B0B0B0; /* Muted text for description */
+}
+
+.text-danger {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+
+.footer {
+  background-color: #121212; /* Dark background for footer */
+}
+
+.footer h5 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #BB86FC; /* Primary accent color */
+}
+
+.footer p,
+.footer a {
+  font-size: 14px;
+  color: #E0E0E0; /* Lighter text color for visibility */
+}
+
+.footer a:hover {
+  color: #BB86FC; /* Primary accent on hover */
+  text-decoration: underline;
+}
+
+.footer .social-icons i {
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.footer .social-icons i:hover {
+  color: #03DAC6; /* Secondary accent color on hover */
+}
+
+.footer hr {
+  border-color: #333; /* Subtle border for separation */
+}
+
+.footer .text-center p {
+  font-size: 12px;
+  color: #E0E0E0; /* Lighter copyright text */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    .nav-items{
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #1e1e1e;
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+    .nav-items.show{
+        display: flex;
+    }
+    .hamburger{
+        display: flex;
+    }
+    
+}

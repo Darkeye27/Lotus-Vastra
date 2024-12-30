@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Clothing</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body id="home">
+	<header>
+		<!-- navbar -->
+	<nav class="navbar">
+       <div class="logo">Lotus Vastra</div>
+       <<div class="hamburger" onclick="toggleMenu()">
+       	<span></span>
+       	<span></span>
+       	<span></span>
+       </div>
+        <ul class="nav-items">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#product">product</a></li>
+            <li><a href="#contect">Contact us</a></li>
+        </ul>
+    </nav>
+    <!-- navbar -->
+    <!-- carousel -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/cloth1.jpg" class="d-block w-100 h-80" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/cloth2.jpg" class="d-block w-100 h-80" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/cloth3.jpg" class="d-block w-100 h-80" alt="...">
+    </div>
+  </div>
+</div>
+   <!-- carousel -->
+</header>
+<main>
+	<!-- about section -->
+	<section class="about-us" id="about">
+  <div class="container">
+    <h2 class="section-title text-center">About Us</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <p class="about-text">
+          Welcome to <strong>Lotus Vastra</strong>, where fashion meets comfort! We're passionate about delivering high-quality clothing that makes you feel confident and stylish. From trendy casual wear to elegant pieces for special occasions, our carefully curated collections are designed to offer something for everyone.
+        </p>
+        <p class="about-text">
+          Our mission is to provide fashion-forward, versatile clothing that fits every lifestyle. Whether you're looking to refresh your wardrobe with the latest trends or find the perfect outfit for a special event, <strong>Lotus Vastra</strong> has got you covered.
+        </p>
+        <p class="about-text">
+          We're not just about clothes; we're about creating an experience. Every piece we offer is thoughtfully selected with quality, comfort, and style in mind. Join us on our journey to make your wardrobe as unique as you are!
+        </p>
+      </div>
+      <div class="col-md-6">
+        <img src="assets/about.jpg" alt="About Us Image" class="img-fluid about-image">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- about section -->
+<!-- product section -->
+<section class="featured-products py-5 bg-dark text-light" id="product">
+  <div class="container">
+    <h2 class="section-title text-center mb-4 text-primary">Featured Products</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card border-0 rounded shadow-lg">
+          <img src="assets/product1.jpg" class="card-img-top" alt="Product 1">
+          <div class="card-body">
+            <h5 class="card-title text-center text-primary">White T-shirt</h5>
+            <p class="card-text text-center">Brief description of the product goes here. Highlight the key features.</p>
+            <div class="text-center">
+              <button class="btn btn-success">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card border-0 rounded shadow-lg">
+          <img src="assets/product2.jpg" class="card-img-top" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title text-center text-primary">Stylish Hoodie</h5>
+            <p class="card-text text-center">Brief description of the product goes here. Highlight the key features.</p>
+            <div class="text-center">
+              <button class="btn btn-success">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card border-0 rounded shadow-lg">
+          <img src="assets/product3.jpg" class="card-img-top" alt="Product 3">
+          <div class="card-body">
+            <h5 class="card-title text-center text-primary">Black T-shirt</h5>
+            <p class="card-text text-center">Brief description of the product goes here. Highlight the key features.</p>
+            <div class="text-center">
+              <button class="btn btn-success">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card border-0 rounded shadow-lg">
+          <img src="assets/product4.jpg" class="card-img-top" alt="Product 4">
+          <div class="card-body">
+            <h5 class="card-title text-center text-primary">Printed T-shirt</h5>
+            <p class="card-text text-center">Brief description of the product goes here. Highlight the key features.</p>
+            <div class="text-center">
+              <button class="btn btn-success">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card border-0 rounded shadow-lg">
+          <img src="assets/product5.jpg" class="card-img-top" alt="Product 5">
+          <div class="card-body">
+            <h5 class="card-title text-center text-primary">Formal Shirt</h5>
+            <p class="card-text text-center">Brief description of the product goes here. Highlight the key features.</p>
+            <div class="text-center">
+              <button class="btn btn-success">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card border-0 rounded shadow-lg">
+          <img src="assets/product6.jpg" class="card-img-top" alt="Product 6">
+          <div class="card-body">
+            <h5 class="card-title text-center text-primary">Stylish Shirt</h5>
+            <p class="card-text text-center">Brief description of the product goes here. Highlight the key features.</p>
+            <div class="text-center">
+              <button class="btn btn-success">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <a href="/shop" class="btn btn-outline-light">View All Products</a>
+    </div>
+  </div>
+</section>
+<!-- product section -->
+  <!-- contact section -->
+<section class="enquire-now py-5 bg-dark text-light" id="contect">
+  <div class="container">
+    <h2 class="section-title text-center mb-4 text-primary">Enquire Now</h2>
+    
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <form id="enquiryForm">
+          <div class="mb-3">
+            <label for="name" class="form-label text-light">Your Name</label>
+            <input type="text" class="form-control bg-dark text-light border-secondary" id="name" placeholder="Enter your name" required>
+            <small class="text-danger" id="nameError"></small>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label text-light">Your Email</label>
+            <input type="email" class="form-control bg-dark text-light border-secondary" id="email" placeholder="Enter your email" required>
+            <small class="text-danger" id="emailError"></small>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label text-light">Your Message</label>
+            <textarea class="form-control bg-dark text-light border-secondary" id="message" rows="4" placeholder="Enter your message" required></textarea>
+            <small class="text-danger" id="messageError"></small>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-success">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+          <!-- contact section -->
+</main>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+	<script src="script.js"></script>
+</body>
+<footer class="footer bg-dark text-light py-5">
+  <div class="container">
+    <div class="row">
+      <!-- About Section -->
+      <div class="col-md-4 mb-4">
+        <h5 class="text-primary">About Us</h5>
+        <p>
+          Lotus Vastra is your go-to destination for stylish and comfortable clothing. Our mission is to deliver top-quality fashion with a focus on individuality and comfort.
+        </p>
+      </div>
+      <!-- Quick Links -->
+      <div class="col-md-4 mb-4">
+        <h5 class="text-primary">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#home" class="text-light text-decoration-none">Home</a></li>
+          <li><a href="#about" class="text-light text-decoration-none">About Us</a></li>
+          <li><a href="#product" class="text-light text-decoration-none">Products</a></li>
+          <li><a href="#contect" class="text-light text-decoration-none">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- Contact Info -->
+      <div class="col-md-4 mb-4">
+        <h5 class="text-primary">Contact Us</h5>
+        <p>
+          <i class="fas fa-map-marker-alt"></i> Ahmedabad,gujarat,india<br>
+          <i class="fas fa-phone"></i> 9099216852<br>
+          <i class="fas fa-envelope"></i> panchalmanish2005@gmail.com
+        </p>
+        <!-- Social Media Icons -->
+        <div>
+          <a href="#" class="text-light me-3"><i class="fab fa-github"></i></a>
+          <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-light me-3"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-light"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+    <hr class="border-secondary">
+    <div class="text-center">
+      <p class="mb-0">&copy; 2024 Lotus Vastra. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+</html>
